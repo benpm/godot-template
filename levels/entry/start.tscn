@@ -1,0 +1,7 @@
+[gd_scene format=2]
+
+[node name="scene" type="Node2D"]
+light_mask = 2
+__meta__ = {
+"_editor_description_": ""
+}

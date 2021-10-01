@@ -1,2 +1,2 @@
-# godot-template
-template for 2D Godot games
+# Godot Template
+Template I use for game jams and stuff in Godot

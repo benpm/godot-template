@@ -8,7 +8,6 @@ export (float) var anim_speed = 0.0 setget set_anim_speed
 func _ready():
 	$animator.play(animation, -1, anim_speed)
 	$animator.advance(0.0)
-	$shadow.scale = Vector2(0.5, 0.5) * ($sprite.region_rect.size.x / $shadow.get_rect().size.y)
 
 func set_animation(v: String):
 	if $animator:

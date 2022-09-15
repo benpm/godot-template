@@ -5,7 +5,7 @@ extends Node2D
 onready var zone_tween := Tween.new()
 onready var music := AudioStreamPlayer.new()
 onready var soundFX := Node2D.new()
-onready var player: KinematicBody2D = $'../scene/player'
+onready var player: KinematicBody2D = $'/root/scene/player'
 
 var sounds: Dictionary
 

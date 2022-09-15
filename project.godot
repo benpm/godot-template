@@ -33,7 +33,7 @@ _global_script_class_icons={
 [application]
 
 config/name="godot-template"
-run/main_scene="res://levels/entry/start.tscn"
+run/main_scene="res://levels/entry/topdown_test_level.tscn"
 config/icon="res://icon.png"
 
 [autoload]
@@ -51,7 +51,7 @@ window/stretch/aspect="expand"
 
 [editor_plugins]
 
-enabled=PoolStringArray( "res://addons/aseprite_importer/plugin.cfg", "res://addons/integer_resolution_handler/plugin.cfg" )
+enabled=PoolStringArray( "res://addons/integer_resolution_handler/plugin.cfg" )
 
 [global]
 
